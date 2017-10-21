@@ -22,7 +22,7 @@
 * {
   background-clip: padding-box;
   -GtkToolButton-icon-spacing: 0;
-  -GtkTextView-error-underline-color: #431604;
+  -GtkTextView-error-underline-color: #9D0006;
   -GtkScrolledWindow-scrollbar-spacing: 0;
   -GtkToolItemGroup-expander-size: 11;
   -GtkWidget-text-handle-width: 24;
@@ -47,8 +47,8 @@ notebook:focus tab,
  * Base States *
  ***************/
 .background {
-  background-color: #F5F5F5;
-  color: rgba(87, 79, 74, 0.87);
+  background-color: #F2E5BC;
+  color: rgba(80, 73, 69, 0.87);
 }
 
 /*
@@ -62,37 +62,37 @@ notebook:focus tab,
 }
 
 .gtkstyle-fallback {
-  background-color: #F5F5F5;
-  color: rgba(87, 79, 74, 0.87);
+  background-color: #F2E5BC;
+  color: rgba(80, 73, 69, 0.87);
 }
 
 .gtkstyle-fallback:hover {
-  background-color: #e8e8e8;
-  color: rgba(87, 79, 74, 0.87);
+  background-color: #EBDBB2;
+  color: rgba(80, 73, 69, 0.87);
 }
 
 .gtkstyle-fallback:active {
-  background-color: gainsboro;
-  color: rgba(87, 79, 74, 0.87);
+  background-color: #D5C4A1;
+  color: rgba(80, 73, 69, 0.87);
 }
 
 .gtkstyle-fallback:disabled {
-  background-color: #F5F5F5;
-  color: rgba(87, 79, 74, 0.38);
+  background-color: #F2E5BC;
+  color: rgba(80, 73, 69, 0.38);
 }
 
 .gtkstyle-fallback:selected {
   background-color: #458588;
-  color: #FFFFFF;
+  color: #F9F5D7;
 }
 
 .view {
-  background-color: #FFFFFF;
-  color: rgba(87, 79, 74, 0.87);
+  background-color: #F9F5D7;
+  color: rgba(80, 73, 69, 0.87);
 }
 
 .view:disabled {
-  color: rgba(87, 79, 74, 0.38);
+  color: rgba(80, 73, 69, 0.38);
 }
 
 .view:hover, .view:active, .view:selected {
@@ -100,12 +100,12 @@ notebook:focus tab,
 }
 
 textview text {
-  background-color: #FFFFFF;
+  background-color: #F9F5D7;
 }
 
 textview border {
-  background-color: #FAFAFA;
-  color: rgba(87, 79, 74, 0.38);
+  background-color: #FBF1C7;
+  color: rgba(80, 73, 69, 0.38);
 }
 
 .rubberband,
@@ -133,16 +133,16 @@ label {
 }
 
 label.separator {
-  color: rgba(87, 79, 74, 0.87);
+  color: rgba(80, 73, 69, 0.87);
 }
 
 label selection {
   background-color: #458588;
-  color: #FFFFFF;
+  color: #F9F5D7;
 }
 
 label:disabled {
-  color: rgba(87, 79, 74, 0.38);
+  color: rgba(80, 73, 69, 0.38);
 }
 
 tab label:disabled,
@@ -162,12 +162,12 @@ assistant .sidebar {
 assistant .sidebar label {
   min-height: 32px;
   padding: 0 12px;
-  color: rgba(87, 79, 74, 0.87);
+  color: rgba(80, 73, 69, 0.87);
   font-weight: 500;
 }
 
 assistant .sidebar label.highlight {
-  color: rgba(87, 79, 74, 0.87);
+  color: rgba(80, 73, 69, 0.87);
 }
 
 popover.background.touch-selection, popover.background.magnifier, popover.background.osd, .app-notification, .osd .scale-popup, .nautilus-window .floating-bar, .osd {
@@ -311,7 +311,7 @@ entry.error {
   transition: all 270ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 180ms cubic-bezier(0.4, 0, 0.2, 1);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), rgba(4, 4, 4, 0.26) 100%, transparent 0%) 0 0 2/0 0 2px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.08);
-  background-color: #431604;
+  background-color: #9D0006;
   color: #FFFFFF;
 }
 
@@ -335,8 +335,8 @@ spinbutton.error.flat:not(.vertical), notebook > stack:not(:only-child) entry.er
 notebook > stack:not(:only-child) spinbutton.error:not(.vertical), messagedialog entry.error, colorchooser .popover.osd spinbutton.error:not(.vertical), .raven .raven-background spinbutton.error:not(.vertical), #login_window entry.error,
 entry.error.flat {
   transition: all 270ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #431604 0%, transparent 0%) 0 0 0/0 0 0px;
-  box-shadow: inset 0 -1px #431604;
+  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #9D0006 0%, transparent 0%) 0 0 0/0 0 0px;
+  box-shadow: inset 0 -1px #9D0006;
   background-color: transparent;
   color: rgba(87, 79, 74, 0.87);
 }
@@ -344,8 +344,8 @@ entry.error.flat {
 spinbutton.error.flat:focus:not(.vertical), notebook > stack:not(:only-child) entry.error:focus:not(.search),
 notebook > stack:not(:only-child) spinbutton.error:focus:not(.vertical), messagedialog entry.error:focus, colorchooser .popover.osd spinbutton.error:focus:not(.vertical), .raven .raven-background spinbutton.error:focus:not(.vertical), #login_window entry.error:focus,
 entry.error.flat:focus {
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #431604 100%, transparent 0%) 0 0 2/0 0 2px;
-  box-shadow: inset 0 -1px #431604;
+  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #9D0006 100%, transparent 0%) 0 0 2/0 0 2px;
+  box-shadow: inset 0 -1px #9D0006;
 }
 
 spinbutton.error.flat:disabled:not(.vertical), notebook > stack:not(:only-child) entry.error:disabled:not(.search),
@@ -5832,7 +5832,7 @@ headerbar .welcome .subtitle, .welcome .budgie-notification .notification-body, 
 .storage-bar .video {
   background-color: #f15d22;
   border-bottom-width: 2px;
-  border-bottom-color: #431604;
+  border-bottom-color: #9D0006;
 }
 
 .storage-bar .legend {
@@ -5996,7 +5996,7 @@ widgets main borders color on backdrop windows */
 /*
 these are pretty self explicative */
 @define-color warning_color #845f00;
-@define-color error_color #431604;
+@define-color error_color #9D0006;
 @define-color success_color #204b2f;
 @define-color destructive_color #db3400;
 @define-color suggested_color #01967a;
