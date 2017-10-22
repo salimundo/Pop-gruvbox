@@ -44,21 +44,25 @@ faded_aqua     #427B58   rgb(66, 123, 88)
 faded_orange   #AF3A03   rgb(175, 58, 3)
 
 
+Major changes from POP theme
 
-#faa41a goes to #D65D0E
+#FFFFFF rgb(255, 255, 255) goes to #F9F5D7 rgb(249, 245, 215)
+#FAFAFA rgb(250, 250, 250) goes to #FBF1C7 rgb(253, 244, 193)
+#F5F5F5 rgb(245, 245, 245) goes to #F2E5BC rgb(242, 229, 188)
 
-#48b9c7 goes to #458588
+#252220 goes to #1D2021 - Topbar background
+#574f4a goes to #1D2021 - Titlebar background in focus
+#625b56 goes to #3C3836 - Titlebar background not in focus
 
-#ffce51 goes to #D79921
+rgb(87, 79, 74) goes to rgb(80, 73, 69) - disabled and dark highlight
+rgb(87, 79, 74) goes to rgb(40, 40, 40) - dark text
 
-#431604 goes to #9D0006
+#faa41a rgb(250, 164, 26) goes to #D65D0E rgb(214, 93, 14) - Highlight and button
+#48b9c7 goes to #458588 - Secondary highlight
 
-#FFFFFF goes to #F9F5D7   255, 255, 255 goes to 249, 245, 215
-#FAFAFA goes to #FBF1C7   250, 250, 250 goes to 253, 244, 193
-#F5F5F5 goes to #F2E5BC   245, 245, 245 goes to 242, 229, 188
-
-#252220 goes to #1D2021
-
-87, 79, 74 goes to 80, 73, 69
-
-250, 164, 26 goes to 254, 128, 25
+#ffce51 goes to #B57614 - Shell warning
+#845f00 goes to #B57614 - GTK Warning
+#431604 goes to #9D0006 - GTK Error
+#204b2f goes to #076678 - GTK Success
+#db3400 goes to #AF3A03 - GTK Destructive
+#01967a goes to #427B58 - GTK Suggested
