@@ -1718,7 +1718,7 @@ menubar,
   -GtkWidget-window-dragging: true;
   padding: 0;
   background-color: #1D2021;
-  border: 1px solid rgba(249, 245, 215, 0.6);
+  border: 1px solid rgba(249, 245, 215, 0.1);
 }
 
 menubar > menuitem,
