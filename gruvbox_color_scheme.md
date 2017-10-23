@@ -2,12 +2,12 @@
 
 | Color name     | Hex          | RGB(A)             |
 |----------------|--------------|--------------------|
-| dark0_hard     | #1D2021      | rgb(29, 32, 33)    |
-| dark0          | #282828      | rgb(40, 40, 40)    |
-| dark0_soft     | #32302F      | rgb(50, 48, 47)    |
-| dark1          | #3C3836      | rgb(60, 56, 54)    |
-| dark2          | #504945      | rgb(80, 73, 69)    |
-| dark3          | #665C54      | rgb(102, 92, 84)   |
+| dark0_hard     | #1D2021      | rgb( 29,  32,  33) |
+| dark0          | #282828      | rgb( 40,  40,  40) |
+| dark0_soft     | #32302F      | rgb( 50,  48,  47) |
+| dark1          | #3C3836      | rgb( 60,  56,  54) |
+| dark2          | #504945      | rgb( 80,  73,  69) |
+| dark3          | #665C54      | rgb(102,  92,  84) |
 | dark4          | #7C6F64      | rgb(124, 111, 100) |
 | gray           | #928374      | rgb(146, 131, 116) |
 | light4         | #A89984      | rgb(168, 153, 132) |
@@ -18,29 +18,29 @@
 | light0         | #FBF1C7      | rgb(253, 244, 193) |
 | light0_hard    | #F9F5D7      | rgb(249, 245, 215) |
 |                |              |                    |
-| neutral_red    | #CC241D      | rgb(204, 36, 29)   |
-| neutral_orange | #D65D0E      | rgb(214, 93, 14)   |
-| neutral_yellow | #D79921      | rgb(215, 153, 33)  |
-| neutral_green  | #98971A      | rgb(152, 151, 26)  |
+| neutral_red    | #CC241D      | rgb(204,  36,  29) |
+| neutral_orange | #D65D0E      | rgb(214,  93,  14) | ![](colors.png) |
+| neutral_yellow | #D79921      | rgb(215, 153,  33) |
+| neutral_green  | #98971A      | rgb(152, 151,  26) |
 | neutral_aqua   | #689D6A      | rgb(104, 157, 106) |
-| neutral_blue   | #458588      | rgb(69, 133, 136)  |
-| neutral_purple | #B16286      | rgb(177, 98, 134)  |
+| neutral_blue   | #458588      | rgb( 69, 133, 136) |
+| neutral_purple | #B16286      | rgb(177,  98, 134) |
 |                |              |                    |
-| bright_red     | #FB4934      | rgb(251, 73, 52)   |
-| bright_orange  | #FE8019      | rgb(254, 128, 25)  |
-| bright_yellow  | #FABD2F      | rgb(250, 189, 47)  |
-| bright_green   | #B8BB26      | rgb(184, 187, 38)  |
+| bright_red     | #FB4934      | rgb(251,  73,  52) |
+| bright_orange  | #FE8019      | rgb(254, 128,  25) |
+| bright_yellow  | #FABD2F      | rgb(250, 189,  47) |
+| bright_green   | #B8BB26      | rgb(184, 187,  38) |
 | bright_aqua    | #8EC07C      | rgb(142, 192, 124) |
 | bright_blue    | #83A598      | rgb(131, 165, 152) |
 | bright_purple  | #D3869B      | rgb(211, 134, 155) |
 |                |              |                    |
-| faded_red      | #9D0006      | rgb(157, 0, 6)     |
-| faded_orange   | #AF3A03      | rgb(175, 58, 3)    |
-| faded_yellow   | #B57614      | rgb(181, 118, 20)  |
-| faded_green    | #79740E      | rgb(121, 116, 14)  |
-| faded_aqua     | #427B58      | rgb(66, 123, 88)   |
-| faded_blue     | #076678      | rgb(7, 102, 120)   |
-| faded_purple   | #8F3F71      | rgb(143, 63, 113)  |
+| faded_red      | #9D0006      | rgb(157,   0,   6) |
+| faded_orange   | #AF3A03      | rgb(175,  58,   3) |
+| faded_yellow   | #B57614      | rgb(181, 118,  20) |
+| faded_green    | #79740E      | rgb(121, 116,  14) |
+| faded_aqua     | #427B58      | rgb( 66, 123,  88) |
+| faded_blue     | #076678      | rgb(  7, 102, 120) |
+| faded_purple   | #8F3F71      | rgb(143,  63, 113) |
 
 ## Major changes from POP theme
 
