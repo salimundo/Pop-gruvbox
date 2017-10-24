@@ -1,7 +1,5 @@
-```diff
-- Work in progress
-- GTK 3.22 and gnome-shell done.  Some GTK 2 done.
-```
+<img src="sample-images/activities.png">
+<img src="sample-images/desktop.png">
 
 # Pop-gruvbox
 Gruvbox theme based on Pop OS compact theme.
@@ -25,8 +23,6 @@ Uses the POP OS shell theme as the starting point.
 Modified colorscheme to use gruvbox colors.  
 Topbar goes transparent when an app is not full screen.
 
-<img src="sample-images/activities.png">
-<img src="sample-images/desktop.png">
 <img src="sample-images/page-one.png" width="600">
 <img src="sample-images/page-two.png" width="600">
 <img src="sample-images/page-three.png" width="600">
