@@ -1746,9 +1746,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .window-caption {
   spacing: 25px;
-  color: #F9F5D7;
+  color: #1D2021;
   background-color: #F2E5BC;
+  border-color: #1D2021;
   border-radius: 2px;
+  border-width: 1px;
   padding: 4px 8px;
 }
 

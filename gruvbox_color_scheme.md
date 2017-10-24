@@ -1,6 +1,6 @@
 ## Colors used
 
-![gruvbox-colors](./gruvbox-colors.png)
+![gruvbox-colors](sample-images/atom.png)
 
 | Color name     | Hex          | RGB(A)             | Color name     | Hex          | RGB(A)             |
 |----------------|--------------|--------------------|----------------|--------------|--------------------|
