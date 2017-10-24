@@ -25,15 +25,15 @@ Uses the POP OS shell theme as the starting point.
 Modified colorscheme to use gruvbox colors.  
 Topbar goes transparent when an app is not full screen.
 
-![activities](sample-images/activities.png)
-![desktop](sample-images/desktop.png)
-![page-one](sample-images/page-one.png)
-![page-two](sample-images/page-two.png)
-![page-three](sample-images/page-three.png)
-![nautilus](sample-images/nautilus.png)
-![about](sample-images/about.png)
-![atom](sample-images/atom.png)
-![store](sample-images/store.png)
-![tweak-tool](sample-images/tweak-tool.png)
-![notifications](sample-images/notifications.png)
-![gedit](sample-images/gedit.png)
+<img src="sample-images/activities.png">
+<img src="sample-images/desktop.png">
+<img src="sample-images/page-one.png" width="600">
+<img src="sample-images/page-two.png" width="600">
+<img src="sample-images/page-three.png" width="600">
+<img src="sample-images/nautilus.png" width="600">
+<img src="sample-images/about.png" width="600">
+<img src="sample-images/atom.png" width="600">
+<img src="sample-images/store.png" width="600">
+<img src="sample-images/tweak-tool.png" width="600">
+<img src="sample-images/notifications.png" width="600">
+<img src="sample-images/gedit.png" width="600">
