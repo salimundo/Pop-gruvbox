@@ -1,6 +1,6 @@
 ```diff
 - Work in progress
-- Most gtk theme work is not done
+- GTK 3.22 and gnome-shell done.  Some GTK 2 done.
 ```
 
 # Pop-gruvbox
@@ -25,5 +25,15 @@ Uses the POP OS shell theme as the starting point.
 Modified colorscheme to use gruvbox colors.  
 Topbar goes transparent when an app is not full screen.
 
-
-_Build for Gnome 3.26.1_
+![activities](sample-images/activities.png)
+![desktop](sample-images/desktop.png)
+![page-one](sample-images/page-one.png)
+![page-two](sample-images/page-two.png)
+![page-three](sample-images/page-three.png)
+![nautilus](sample-images/nautilus.png)
+![about](sample-images/about.png)
+![atom](sample-images/atom.png)
+![store](sample-images/store.png)
+![tweak-tool](sample-images/tweak-tool.png)
+![notifications](sample-images/notifications.png)
+![gedit](sample-images/gedit.png)
