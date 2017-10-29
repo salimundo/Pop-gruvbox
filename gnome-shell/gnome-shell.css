@@ -997,6 +997,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 /* TOP BAR */
 /* HACK: red red red red red Change top bar color for background here red red red red red*/
+
 #panel {
   background-color: transparent;
   /* transition from solid to transparent */
@@ -1007,6 +1008,40 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border: none;
 }
 
+/* HACK: Start of the top bar text color comment out section */
+
+/* HACK: This if for dark text/light background image */
+#panel .panel-button {
+  -natural-hpadding: 12px;
+  -minimum-hpadding: 6px;
+  font-weight: bold;
+  color: rgba(249, 245, 215, 0.7); /* HACK: Panel color normal */
+  text-shadow: none;
+  transition-duration: 0.15s;
+}
+
+#panel .panel-button:hover {
+  color: #F9F5D7;  /* HACK: Panel color hover */
+  text-shadow: none;
+}
+
+/* HACK: This if for dark text/light background image */
+/*#panel .panel-button {
+  -natural-hpadding: 12px;
+  -minimum-hpadding: 6px;
+  font-weight: bold;
+  color: rgba( 29,  32,  33, 0.7);
+  text-shadow: none;
+  transition-duration: 0.15s;
+}
+
+#panel .panel-button:hover {
+  color: #1D2021;
+  text-shadow: none;
+}*/
+
+/* HACK: End of the top bar text color comment out section */
+
 #panel:overview, #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
   border: none;
   box-shadow: none;
@@ -1016,13 +1051,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   -natural-hpadding: 12px;
   -minimum-hpadding: 6px;
   font-weight: bold;
-  color: rgba(249, 245, 215, 0.7); /* HACK: Panel color normal */
+  color: rgba(249, 245, 215, 0.7); /* HACK: activities text color normal */
   text-shadow: none;
   transition-duration: 0.15s;
 }
 
 #panel:overview .panel-button:hover, #panel:overview .panel-button:active {
-  color: #F9F5D7;  /* HACK: Panel color hover */
+  color: #F9F5D7;  /* HACK: activities text color hover */
   text-shadow: none;
 }
 
@@ -1047,15 +1082,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   -panel-corner-border-color: transparent;
 }
 
-#panel .panel-button {
-  -natural-hpadding: 12px;
-  -minimum-hpadding: 6px;
-  font-weight: bold;
-  color: rgba( 29,  32,  33, 0.7); /* HACK: Panel color normal */
-  text-shadow: none;
-  transition-duration: 0.15s;
-}
-
 #panel .panel-button .app-menu-icon {
   -st-icon-style: symbolic;
   margin-left: 4px;
@@ -1066,11 +1092,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 #panel .panel-button .app-menu-icon > StIcon,
 #panel .panel-button .popup-menu-arrow {
   icon-shadow: none;
-}
-
-#panel .panel-button:hover {
-  color: #1D2021;  /* HACK: Panel color hover */
-  text-shadow: none;
 }
 
 #panel .panel-button:hover .system-status-icon,
